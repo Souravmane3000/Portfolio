@@ -20,6 +20,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 76px;
 }
 
 body {
@@ -325,12 +326,6 @@ button {
 
 .text-link--light {
   color: white;
-}
-
-.text-link.is-disabled {
-  border-bottom-color: transparent;
-  color: rgba(255, 255, 255, 0.38);
-  cursor: not-allowed;
 }
 
 .hero__footer {

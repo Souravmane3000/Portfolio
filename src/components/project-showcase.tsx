@@ -116,15 +116,7 @@ export function ProjectShowcase() {
                   <GitFork aria-hidden="true" size={16} />
                   GitHub <ArrowUpRight aria-hidden="true" size={14} />
                 </a>
-              ) : (
-                <span
-                  className="text-link text-link--light is-disabled"
-                  aria-label="GitHub repository link not yet available"
-                >
-                  <GitFork aria-hidden="true" size={16} />
-                  GitHub link pending
-                </span>
-              )}
+              ) : null}
             </div>
           </div>
 
